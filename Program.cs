@@ -4,8 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Finging Maximum Values Using Generics");
-           
+            Console.WriteLine("Find Maximum Vlaue in Three Interger Numbers");
+            TestCode.TestCase1Integer();
+            TestCode.TestCase2Integer();
+            TestCode.TestCase3Integer();
+
         }
     
     }
