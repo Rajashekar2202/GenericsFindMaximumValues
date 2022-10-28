@@ -8,25 +8,23 @@ namespace Generics
 {
     class TestCode
     {
-  
-        public static void TestCase1Float()
+       
+        public static void TestCase1String()
         {
-            float result = Maximum.MaximumFloat(21.5f, 8.5f, 15.7f);
+            string result = Maximum.MaximumString("Peach", "Apple", "Banana");
             Console.WriteLine("\nIn First Case Maximum Number is " + result);
         }
 
-        public static void TestCase2Float()
+        public static void TestCase2String()
         {
-            float result = Maximum.MaximumFloat(2.6f, 15.4f, 1.5f);
+            string result = Maximum.MaximumString("Lion", "Zebra", "Cat");
             Console.WriteLine("\nIn Second case Maximum Number is " + result);
         }
 
-        public static void TestCase3Float()
+        public static void TestCase3String()
         {
-            float result = Maximum.MaximumFloat(2.6f, 8.5f, 15.7f);
+            string result = Maximum.MaximumString("Blue", "Red", "Yellow");
             Console.WriteLine("\nIn Third Case Maximum Number is " + result);
         }
-
-
     }
 }

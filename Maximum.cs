@@ -8,7 +8,7 @@ namespace Generics
 {
     public class Maximum
     {
-        public static float MaximumFloat(float first, float second, float third)
+        public static string MaximumString(string first, string second, string third)
         {
             if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
             {
