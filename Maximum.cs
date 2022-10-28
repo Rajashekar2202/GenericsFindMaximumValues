@@ -8,8 +8,7 @@ namespace Generics
 {
     public class Maximum
     {
-        public static int MaximumInteger(int first, int second, int third)
-       
+        public static float MaximumFloat(float first, float second, float third)
         {
             if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
             {
